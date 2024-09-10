@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+body{  
+    background-color:#e4d6d8;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(tablet1.png);
+    color: white;
+    background-size: contain;
+}
+
+button{
+cursor: pointer;
+transition: 0.3s;
+padding: 10px;
+margin-bottom: 10px;
+width: -webkit-fill-available;
+}
+
+button:active{
+    opacity: 0.8s;
+}
+button[disabled] {
+    opacity: 0.8; 
+}
+
+
+input{
+    padding: 10px;
+    width: -webkit-fill-available;
+    border: none; 
+}
+
+
+h1{
+font-size: 26px;
+}
+
+form{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: auto 0;
+
+}
+
+.back{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+.container{
+    width: 300px;
+    padding: 10x;
+    text-align: center;
+    color: white;
+    margin: auto 0;
+
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width:-webkit-fill-available;
+    border: none;
+
+}
+.rec{
+    background: transparent;
+    border: none; 
+    color: white;
+}
+
+.reg, .enter, .sobre, .back{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.content{
+    width: 300px;
+    padding: 10x;
+    text-align: center;
+    color: white;
+    margin: auto 0;  
+}
+
+.btn{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+
+
+.rotated {
+    transform: rotate(90deg);
+}
+
+.custos, th, td {
+    width: 100%;
+    border: 1px solid;
+    padding:3px;
+    margin-bottom: 10px;
+}
+
